@@ -7,17 +7,18 @@
 	</head>
 	<body>
 		<header>
-			<div class="logo">
-				<img src="images/logo/Reservia3x.png" />
+			<div id="header">
+				<div class="logo">
+					<img src="images/logo/Reservia3x.png" />
+				</div>
+				<nav>
+					<ul id="navigation">
+						<li><a class="nav" href="#">Hébergements</a></li>
+						<li><a class="nav" href="#">Activités</a></li>
+						<li><a class="nav" href="#">S'inscrire</a></li>
+					</ul>
+				</nav>
 			</div>
-
-			<nav>
-				<ul id="navigation">
-					<li><a class="nav" href="#">Hébergements</a></li>
-					<li><a class="nav" href="#">Activités</a></li>
-					<li><a class="nav" href="#">S'inscrire</a></li>
-				</ul>
-			</nav>
 		</header>
 		<aside>
 			<div class="asidetop">
@@ -26,29 +27,41 @@
 					<p> En plein centre ville ou en pleine nature</p>
 				</div>
 				<form method="post" action="traitement.php">
-					<div class="search">
-						<p>
-							Logo
-							<input type="search" name="recherche" id="recherche"  placeholder="Marseille, France" />
-							Rechercher
-						</p>
+					<div id="recherchebar">
+						<div class="search">
+							<p>
+								Logo
+								<input type="search" name="recherche" id="recherche"  placeholder="Marseille, France" />
+								Rechercher
+							</p>
+						</div>
 					</div>
 				</form>
 				<div class="filtres">
 					<div class="filtre">
-					Economique	
+						<div class="inblock">E
+						</div>
+						Economique	
 					</div>
 
 					<div class="filtre">
-					Familial
+						<div class="inblock">
+							F
+						</div>
+						Familial
 					</div>
 
 					<div class="filtre">
-					Romantique
+						<div class="inblock">
+							R
+						</div>
+						Romantique
 					</div>
-
 					<div class="filtre">
-					Animaux autorisés
+						<div class="inblock">
+							AA
+						</div>
+						Animaux autorisés
 					</div>
 				</div>
 				<div class="info">
