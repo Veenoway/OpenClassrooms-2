@@ -39,15 +39,21 @@
 {
 	background-color: grey;
 	padding-left: 15px;
+
 }
 
 .search
 {
 	border: 1px solid white;
-	width: 300px;
-	padding-left: 15px;
-	padding-right: 15px;
+	width: 400px;
+	padding-left: 0px;
+	padding-right: 0px;
 	border-radius: 25px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .filtres
@@ -55,20 +61,146 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	background-color: red;
-	width: 650px;
+	
+	width: 750px;
 	margin-top:15px;
 	margin-bottom:15px;
+	text-align: center;
 
 }
 
 .filtre
 {
-	border: 1px solid white;
+	border: 1px solid green;
+	border-radius: 25px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-right:20px;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	background-color: red;
+
+	
 }
 
 .inblock
 {
 	background-color: blue;
+	border: 1px solid white;
+	border-radius: 40px 40px 40px 40px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	padding: 10px;
+}
+
+.titrefiltre
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#conteneur
+{
+	background-color: grey;
+	border: 0px solid black;
+	border-radius: 35px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 65%;
+	margin:20px;
+}
+
+.main
+{
+	width:100%;
+	padding-left: 3%;
+	padding-top: 10px;
+}
+
+.image
+{
+	border: 3.5px solid white;
+	border-radius: 35px;
+	margin: 10px;
+}
+
+*
+{
+	margin: 0px;
+}
+
+.main1
+{
+	width:100%;
+	padding: 12px;
+	padding-left: 3%;
+}
+
+article
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#sarticle
+{
+	background-color: blue;
+	width: 30%;
+	margin: 20px;
+	border: 0px solid black;
+	border-radius: 35px;
+}
+
+.logosearch
+{
+	background-color: yellow;
+	padding-left: 0px;
+	font-size: 1.7em;
+	
+	display: flex;
+	border: 0px solid white;
+	border-radius: 25px 0px 0px 25px;
+	padding: 15px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+
+	
+	
+
+}
+
+#recherchebar
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.search1
+{
+	border: 0px solid white;
+	background-color: blue;
+	padding: 17px;
+	border-radius: 0px 25px 25px 0px;
+
+	flex-basis: 30%;
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.bar2recherche
+{
+	background-color: red;
+	flex-basis: 50%;
+	display: flex;
+	padding-top: 2px;
+	padding-bottom: 2px
+
