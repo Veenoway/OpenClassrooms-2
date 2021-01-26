@@ -317,7 +317,7 @@ article
 	padding-left: 18px;
 	padding-right: 157px;
 	padding-top: 24px;
-	opacity: 0.95;
+	
 
 
 }
@@ -336,7 +336,7 @@ article
 	padding-left: 35px;
 	padding-right: 168px;
 	padding-top: 24px;
-	opacity: 0.95;
+	
 }
 
 .Textepic3
@@ -347,7 +347,7 @@ article
 	border: 0px solid white;
 	left: 22px;
 	background-color: white;
-	opacity: 0.95;
+	
 	border-radius: 0px 0px 25px 25px;
 	display: flex;
 	flex-direction: column;
@@ -365,6 +365,7 @@ article
 .picture
 {
 	border: 3px solid white;
+	background-color: white;
 	border-radius: 25px;
 	padding-right: 280px;
 }
@@ -377,6 +378,7 @@ article
 .fa-money-bill-wave
 {
 	color: #0065FC;
+	padding-top: 2px;
 }
 
 .fa-child
@@ -387,11 +389,13 @@ article
 .fa-heart
 {
 	color: #0065FC;
+	padding-top: 2px;
 }
 
 .fa-dog
 {
 	color: #0065FC;
+	padding-top: 2px;
 }
 
 .article
@@ -425,10 +429,10 @@ article
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	width: 96.5%;
+	width: 100%;
 	height: 670px;
-	margin: 35px 25px 25px 00px;
-	margin-right: 15px;
+	margin: 35px 00px 25px 00px;
+	margin-right: 0px;
 	border: 0px solid black;
 	border-radius: 35px;
 	justify-content: space-between;
@@ -440,8 +444,10 @@ article
 
 .photo
 {
-	border: 3px solid black;
+	border: 4px solid #F2F2F2;
 	border-radius: 35px;
+	box-shadow: 3px 3px 2px #F2F2F2;
+
 }
 
 #Activités
@@ -480,41 +486,88 @@ article
 .textephoto1
 {
 	position: absolute;
-	bottom: -852px;
-	background-color: green;
+	bottom: -930px;
+	background-color: white;
+	left: 23px;
+	border-radius: 0px 0px 35px 35px;
+	border: 0px solid black;
+	padding-right: 268px;
+	padding-left: 55px;
+	padding-bottom: 23px;
+	padding-top: 22px;
+
 }
 
 .textephoto2
 {
 	position: absolute;
-	bottom: -552px;
-	background-color: green;
+	bottom: -615px;
+	left: 500px;
+	background-color:white;
+	border-radius: 0px 0px 35px 35px;
+	border: 0px solid black;
+	padding-right: 205px;
+	padding-left: 55px;
+	padding-bottom: 23px;
+	padding-top: 22px;
+
 }
 
 .textephoto3
 {
 	position: absolute;
-	bottom: -852px;
-	background-color: green;
+	bottom: -929px;
+	left: 499px;
+	background-color: white;
+	border: 0px solid black;
+	padding-right: 248px;
+	padding-left: 55px;
+	padding-bottom: 23px;
+	padding-top: 22px;
+
+	border-radius: 0px 0px 35px 35px;
 }
 
 .textephoto4
 {
 	position: absolute;
-	bottom: -852px;
-	background-color: green;
+	bottom: -928px;
+	left: 0975px;
+	background-color: white;
+	padding-right: 132px;
+	padding-left: 55px;
+	padding-bottom: 22px;
+	padding-top: 22px;
+	border-radius: 0px 0px 33px 33px;
+	border: 0px solid black;
+
 }
 
 .textephoto5
 {
 	position: absolute;
-	bottom: -510px;
-	background-color: green;
+	bottom: -594px;
+	left: 1451px;
+	background-color: white;
+	border-radius: 0px 0px 35px 35px;
+	border: 0px solid black;
+	padding-right: 156px;
+	padding-left: 55px;
+	padding-bottom: 22px;
+	padding-top: 22px;
 }
 
 .textephoto6
 {
 	position: absolute;
-	bottom: -852px;
-	background-color: green;
+	bottom: -929px;
+	left: 1452px;
+	background-color: white;
+	border-radius: 0px 0px 32px 32px;
+	border: 0px solid black;
+	padding-right: 216px;
+	padding-left: 55px;
+	padding-bottom: 22px;
+	padding-top: 22px;
+
 }
