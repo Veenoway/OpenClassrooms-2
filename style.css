@@ -421,7 +421,7 @@ article
 
 #downside
 {
-	background-color: grey;
+	background-color: white;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -446,22 +446,75 @@ article
 
 #Activités
 {
-	background-color:yellow;
-	padding-bottom: 15px;
+	background-color:white;
+	padding-bottom: 00px;
 }
 
 .activite2
 {
-	padding-top: 50px;
+	padding-top: 65px;
 
 }
 
 .activite4
 {
-	padding-top: 50px;
+	padding-top: 65px;
 }
 
 .activite5
 {
-	padding-top: 50px;
+	padding-top: 65px;
+}
+
+.activite3
+{
+	padding-top: 19px;
+
+}
+
+.imageact
+{
+	position: relative;
+}
+
+.textephoto1
+{
+	position: absolute;
+	bottom: -852px;
+	background-color: green;
+}
+
+.textephoto2
+{
+	position: absolute;
+	bottom: -552px;
+	background-color: green;
+}
+
+.textephoto3
+{
+	position: absolute;
+	bottom: -852px;
+	background-color: green;
+}
+
+.textephoto4
+{
+	position: absolute;
+	bottom: -852px;
+	background-color: green;
+}
+
+.textephoto5
+{
+	position: absolute;
+	bottom: -510px;
+	background-color: green;
+}
+
+.textephoto6
+{
+	position: absolute;
+	bottom: -852px;
+	background-color: green;
 }
