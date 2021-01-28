@@ -1,0 +1,67 @@
+@media screen and (max-width: 480px)
+{
+	#conteneur
+	{
+		width: 100%;
+		max-width: 480px;
+		justify-content: space-around;
+	}
+
+	#sarticle
+	{
+		width: 100%;
+		max-width: 480px;
+	}
+
+	.article1
+	{
+		width: 80%;
+
+	}
+
+	article
+	{
+		margin-left: 25px;
+	}
+
+	.titrefiltre
+	{
+		width: 5000px;
+		padding-bottom: 10px;
+		padding-top: 15px;
+		margin-right: 100px;
+
+	}
+
+	.filtres
+	{
+		width: 90%;
+		justify-content: flex-start;
+	}
+
+	.filtre
+	{
+		margin-right: 25px;
+		margin-bottom: 12px;
+	}
+
+	.nav2
+	{
+		order: 2;
+	}
+
+	.nav1
+	{
+		order: 3;
+	}
+
+	.nav3
+	{
+		order: 1;
+	}
+
+	*
+	{
+		margin: auto;
+	}
+}
