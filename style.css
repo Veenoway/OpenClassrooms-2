@@ -108,7 +108,7 @@
 
 .filtre
 {
-	border: 3px solid #F2F2F2;
+	border: 2px solid #F2F2F2;
 	border-radius: 25px;
 	padding-top:0px;
 	padding-bottom:0px;
@@ -330,10 +330,12 @@ article
 	border-radius: 0px 0px 25px 25px;
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 25px;
+
+	padding-bottom: 12px;
 	padding-left: 18px;
-	padding-right: 157px;
-	padding-top: 24px;
+	padding-right: 98px;
+	padding-top: 12px;
+
 	
 
 
@@ -349,11 +351,70 @@ article
 	border-radius: 0px 0px 25px 25px;
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 25px;
-	padding-left: 35px;
-	padding-right: 169px;
-	padding-top: 24px;
+	padding-bottom: 12px;
+	padding-left: 18px;
+	padding-right: 142px;
+	padding-top: 12px;
 	
+}
+
+.Textepic4
+{
+	position: absolute;
+	bottom: 26px;
+	border: 0px solid black;
+	left: 23px;
+	background-color: white;
+	border-radius: 0px 0px 25px 25px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 12px;
+	padding-left: 18px;
+	padding-right: 183px;
+	padding-top: 12px;
+	
+}
+
+.Textepic5
+{
+	position: absolute;
+	bottom: 26px;
+	border: 0px solid black;
+	left: 23px;
+	background-color: white;
+	border-radius: 2px 0px 25px 25px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 12px;
+	padding-left: 18px;
+	padding-right: 180px;
+	padding-top: 12px;
+	
+}
+
+.Textepic6
+{
+	position: absolute;
+	bottom: 26px;
+	border: 0px solid black;
+	left: 23px;
+	background-color: white;
+	border-radius: 0px 0px 25px 25px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 12px;
+	padding-left: 18px;
+	padding-right: 160px;
+	padding-top: 12px;
+	
+}
+
+
+
+.mouette
+{
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
 
 .Textepic3
@@ -361,37 +422,64 @@ article
 {
 	position: absolute;
 	bottom: 26px;
-	border: 0px solid white;
-	left: 22px;
+	border: 0px solid blue;
+	left: 21px;
 	background-color: white;
 	
 	border-radius: 0px 0px 25px 25px;
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 25px;
-	padding-left: 35px;
-	padding-right: 182px;
-	padding-top: 24px;
+	padding-bottom: 12px;
+	padding-left: 18px;
+	padding-right: 199px;
+	padding-top: 12px;
+}
+
+.hdp
+{
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+.star1
+{
+	padding-top: 65px;
+
+}
+
+.star2
+{
+	padding-top: 45px;
+}
+
+.star3
+{
+	padding-top: 58px;
 }
 
 .texteimage
 {
 	position: absolute;
-	right: 140px;
+	right: 100px;
+	top: 585px;
+	display: flex;
+	flex-direction: column;
 }
 
 .texteimage3
 {
 	position: absolute;
-	right: 140px;
-	top: 890px;
+	right: 95px;
+	top: 1065px;
+	display: flex;
+	flex-direction: column;
 }
 
 .texteimage2
 {
 	position: absolute;
-	right:180px;
-	top: 90px;
+	right:150px;
+	top: 820px;
 }
 
 .picture
@@ -434,14 +522,14 @@ article
 
 .article
 {
-	background-color: #F2F2F2;
+	
 	padding-left: 0px;
 	width: 520px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding-top: 50px;
-	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 0px;
 
 }
 
@@ -463,7 +551,7 @@ article
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	width: 100%;
+	width: auto;
 	height: 670px;
 	margin: 35px 00px 25px 00px;
 	margin-right: 0px;
@@ -676,16 +764,33 @@ ul li
 
 }
 
+.star
+{
+	padding-top: 10px;
+}
+
+.biere
+{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.fa-star
+{
+	color: #0065FC;
+}
 
 
 
+i.grey{
+	color: #F2F2F2;
+}
 
 
-
-
-
-
-
+h3
+{
+	font-size: 1.3em;
+}
 
 
 
