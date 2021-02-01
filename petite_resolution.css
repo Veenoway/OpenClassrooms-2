@@ -1,67 +1,97 @@
-@media screen and (max-width: 480px)
+@media screen and (max-width: 800px)
 {
 	#conteneur
 	{
 		width: 100%;
-		max-width: 480px;
+		max-width: 788px;
+		margin: auto;
 		justify-content: space-around;
+		background-color: white;
+		order: 2;
 	}
 
 	#sarticle
 	{
 		width: 100%;
-		max-width: 480px;
+		max-width: 800px;
+		margin: auto;
+		height: auto;
+		justify-content: space-around;
+		margin-bottom: 5px;
+		margin-top: 25px;
+		border-radius: 0px;
+		padding-bottom: 50px;
 	}
 
 	.article1
 	{
-		width: 80%;
-
+		width: 92%;
+		margin: auto;
+		margin-top: 20px;
 	}
 
-	article
+	.article2
 	{
-		margin-left: 25px;
+		width: 92%;
+		margin: auto;
+		margin-top: 20px;
 	}
+
+	.article3
+	{
+		width: 92%;
+		margin: auto;
+		margin-top: 20px;
+	}
+
 
 	.titrefiltre
 	{
-		width: 5000px;
+		width: 100%;
 		padding-bottom: 10px;
-		padding-top: 15px;
-		margin-right: 100px;
+		padding-top: 20px;
+		font-size:1.2em;
+	}
+
+	.filtre
+	{
+		margin-bottom: 10px;
+		margin-right: 20px;
+
+	}
+
+	#recherchebar
+	{
+		width: 90%;
+	}
+
+	.TitrePop
+	{
+	
+		display: flex;
+		width: 90%;
+		max-width: 788px;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-left: 5px;
+		
+		
 
 	}
 
 	.filtres
 	{
-		width: 90%;
-		justify-content: flex-start;
+		width: 92%;
+		margin: 20px 20px 20px 20px;
+		
 	}
 
-	.filtre
-	{
-		margin-right: 25px;
-		margin-bottom: 12px;
-	}
-
-	.nav2
-	{
-		order: 2;
-	}
-
-	.nav1
-	{
-		order: 3;
-	}
-
-	.nav3
-	{
-		order: 1;
-	}
-
-	*
+	.info
 	{
 		margin: auto;
+		padding-left:0px;
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 1em;
+		overflow-wrap: break-word;
 	}
-}
