@@ -53,7 +53,10 @@
 	padding-top: 51px;
 }
 
-
+.nav2:hover
+{
+	color: #0065FC;
+}
 .nav3
 {
 	text-decoration: none;
@@ -63,11 +66,21 @@
 	padding-top: 51px;
 }
 
-.nav:hover
+.nav3:hover
 {
 	color: #0065FC;
 }
 
+.nav1:hover
+{
+	color: grey;
+}
+
+.ulli
+{
+	text-decoration: none;
+	color: black;
+}
 
 .asidetop
 {
@@ -404,7 +417,27 @@ article
 	
 }
 
+.afficherplus
+{
+	text-decoration: none;
+	color: black;
+}
 
+.afficherplus:hover
+{
+	color: #0065FC;
+}
+
+.hyperlien
+{
+	color: black;
+	text-decoration: none;
+}
+
+.hyperlien:hover
+{
+	color: #0065FC;
+}
 
 .mouette
 {
@@ -687,9 +720,15 @@ h3
 	padding: 30px 0px 30px 0px;
 	align-content: center;
 	width: 100%;
+	height: auto;
 	justify-content: space-around;
 
 
+}
+
+.hl-grey
+{
+	color: #F2F2F2;
 }
 
 .inside
