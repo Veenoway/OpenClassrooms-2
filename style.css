@@ -5,9 +5,7 @@
          url('raleway-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 #header
 {
@@ -16,8 +14,6 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	background-color: white;
-
-
 }
 
 #navigation
@@ -25,24 +21,26 @@
 	display: flex;
 	justify-content: space-around;
 	background-color: white;
-	width: 450px;
+	width: 440px;
 	height: 100px;
-	align-items: center;
+	align-items: baseline;
 	list-style: none;
 	padding-right: 0px;
 	align-items: center;
 	padding-top: 15px;
-	
-
-
 }
 
 .logo
 {
-	padding-top: 15px;
+	padding-top: 0px;
 	padding-left: 35px;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: white;
+	width: 100%;
 }
-
 
 .nav2
 {
@@ -51,18 +49,19 @@
 	font-size: 1.2em;	
 	border-top: 3px solid #0065FC;
 	padding-top: 51px;
+	position: static;
 }
 
 .nav2:hover
 {
 	color: #0065FC;
 }
+
 .nav3
 {
 	text-decoration: none;
 	color: black;
 	font-size: 1.2em;	
-	
 	padding-top: 51px;
 }
 
@@ -86,7 +85,6 @@
 {
 	background-color: white;
 	padding-left: 15px;
-
 }
 
 .search
@@ -101,7 +99,6 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-
 }
 
 .filtres
@@ -128,6 +125,13 @@ button
 	font-size: 1em;
 	color: white;
 }
+
+button:hover
+{
+	background-color: #DEEBFF;
+	color: white;
+}
+
 .filtre
 {
 	border: 2px solid #F2F2F2;
@@ -139,9 +143,7 @@ button
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
-	background-color: white;
-
-	
+	background-color: white;	
 }
 
 .inblock
@@ -179,7 +181,6 @@ button
 	margin-left: 25px;
 	margin-right: 15px;
 	margin-top: 25px;
-	
 }
 
 #recherche
@@ -190,7 +191,6 @@ button
 	padding-right: 0px;
 	font-weight: bold;
 	font-size: 1em;
-
 }
 
 .main
@@ -209,7 +209,6 @@ button
 	width: 350px;
 	min-width: 250px;
 	box-shadow: 3px 3px 15px #bfbfbf;
-
 }
 
 *
@@ -235,25 +234,18 @@ article
 	flex-wrap: wrap;
 }
 
-
-
 .logosearch
 {
 	background-color: #F2F2F2;
 	padding-left: 0px;
 	font-size: 1.4em;
-	
 	display: flex;
 	border: 0px solid white;
 	border-radius: 12px 0px 0px 12px;
 	padding: 15px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 15px;
-
-	
-	
-
+	padding-left: 15px;	
 }
 
 #recherchebar
@@ -280,12 +272,12 @@ article
 	margin-right: 10px;
 	margin-bottom: 0px;
 	padding: 14px 16px 14px 18px;
-
 }
 
 .Titre
 {
 	padding: 25px;
+	padding-top: 10px;
 	background-color: white;
 }
 
@@ -334,15 +326,10 @@ article
 	border-radius: 0px 0px 25px 25px;
 	display: flex;
 	flex-direction: column;
-
 	padding-bottom: 12px;
 	padding-left: 18px;
 	padding-right: 98px;
 	padding-top: 12px;
-
-	
-
-
 }
 
 .Textepic2
@@ -359,7 +346,6 @@ article
 	padding-left: 18px;
 	padding-right: 142px;
 	padding-top: 12px;
-	
 }
 
 .Textepic4
@@ -376,7 +362,6 @@ article
 	padding-left: 18px;
 	padding-right: 183px;
 	padding-top: 12px;
-	
 }
 
 .Textepic5
@@ -392,8 +377,7 @@ article
 	padding-bottom: 12px;
 	padding-left: 18px;
 	padding-right: 180px;
-	padding-top: 12px;
-	
+	padding-top: 12px;	
 }
 
 .Textepic6
@@ -409,8 +393,7 @@ article
 	padding-bottom: 12px;
 	padding-left: 18px;
 	padding-right: 160px;
-	padding-top: 12px;
-	
+	padding-top: 12px;	
 }
 
 .afficherplus
@@ -442,14 +425,12 @@ article
 }
 
 .Textepic3
-
 {
 	position: absolute;
 	bottom: 26px;
 	border: 0px solid blue;
 	left: 21px;
 	background-color: white;
-	
 	border-radius: 0px 0px 25px 25px;
 	display: flex;
 	flex-direction: column;
@@ -468,7 +449,6 @@ article
 .star1
 {
 	padding-top: 45px;
-
 }
 
 .star2
@@ -481,7 +461,6 @@ article
 	padding-top: 45px;
 }
 
-
 .article1
 {
 	background-color: white;
@@ -490,6 +469,7 @@ article
 	height: 185px;
 	width: 480px;
 	box-shadow: 3px 3px 15px grey;
+	margin-top: 15px;
 }
 
 .float
@@ -505,6 +485,7 @@ article
 	height: 185px;
 	width: 480px;
 	box-shadow: 3px 3px 15px grey;
+	margin-top: 28px;
 }
 
 .article3
@@ -515,6 +496,7 @@ article
 	height: 185px;
 	width: 480px;
 	box-shadow: 3px 3px 15px grey;
+	margin-bottom: 40px;
 }
 
 
@@ -531,33 +513,28 @@ article
 	margin-right: 15px;
 	margin-top: 25px;
 	border: 0px solid black;
-	border-radius: 35px;
-	
+	border-radius: 35px;	
 }
 
 .texteinside
 {
-	
 	padding-left: 250px;
 	padding-top: 20px;
 }
 
 .TitrePop
-	{
-	
-		display: flex;
-		width: 95%;
-		justify-content: space-between;
-		padding-left: 20px;
-
-	}
+{
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	padding-left: 15px;
+	padding-right:15px;
+}
 
 .picture
-{
-	
+{	
 	border: 0px solid black;
-	border-radius: 22px 0 0 22px;
-	
+	border-radius: 22px 0 0 22px;	
 }
 
 .fa-map-marker-alt
@@ -569,7 +546,6 @@ article
 {
 	color: #0065FC;
 	padding-top: 2px;
-
 }
 
 .fa-child
@@ -590,16 +566,14 @@ article
 }
 
 .article
-{
-	
+{	
 	padding-left: 0px;
-	width: 520px;
+	width: 470px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	padding-top: 30px;
 	padding-bottom: 0px;
-
 }
 
 .nav1
@@ -614,11 +588,6 @@ article
 	font-size: 1.5em;
 }
 
-
-
-
-
-
 #footer
 {
 	background-color: #F2F2F2;
@@ -626,8 +595,7 @@ article
 	flex-flow: row wrap;
 	justify-content: space-around;
 	padding: 30px;
-	margin-top: 70px;
-	
+	margin-top: 70px;	
 }
 
 ul li 
@@ -640,7 +608,6 @@ ul li
 {
 	text-decoration: none;
 }
-
 
 .titlefoot
 {
@@ -662,18 +629,14 @@ ul li
 	border-radius: 50px;
 	background-color: blue;
 	color: white;
-
-
-
 }
 
-.info{
+.info
+{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 440px;
-
-
 }
 
 .star
@@ -692,17 +655,14 @@ ul li
 	color: #0065FC;
 }
 
-
-
-i.grey{
+i.grey
+{
 	color: #F2F2F2;
 }
-
 
 h3
 {
 	font-size: 1.3em;
-
 }
 
 #blockparent
@@ -713,20 +673,32 @@ h3
 	flex-wrap: wrap;
 	width: auto;
 	margin: auto;
-	padding: 30px 0px 30px 0px;
+	padding: 30px 0px 15px 0px;
 	align-content: center;
 	width: 100%;
 	height: auto;
 	justify-content: space-around;
-
-
 }
 
-.hl-grey
+.fa-money-bill-wave:hover
 {
-	color: #F2F2F2;
+	color: grey;
 }
 
+.fa-child:hover
+{
+	color: grey;
+}
+
+.fa-heart:hover
+{
+	color:grey;
+}
+
+.fa-dog:hover
+{
+	color: grey;
+}
 .inside
 {
 	border: 0px solid black;
@@ -740,7 +712,6 @@ h3
 {
 	border: 0px solid black;
 	border-radius: 22px 22px 0 0;
-
 }
 
 .description
@@ -767,7 +738,6 @@ h3
 	height: 240px;
 	margin-top: 50px;
 	box-shadow: 3px 3px 15px grey;
-
 }
 
 .inside4
@@ -799,3 +769,10 @@ h3
 	padding-left: 25px;
 }
 
+.logofirst
+{
+	width: 150px;
+	height: 75px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
