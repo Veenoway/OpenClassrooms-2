@@ -65,12 +65,17 @@
 		border: 3px solid white;
 		border-radius: 25px;
 		height: 185px;
-		width: 620px;
+		width: 95%;
 		box-shadow: 3px 3px 15px grey;
 		margin-bottom: 40px;
 		margin-top: 30px;
+		margin-left: 25px;
 	}
 
+	.upic
+	{
+		width: 100%;
+	}
 
 	.article2
 	{
@@ -78,9 +83,11 @@
 		border: 3px solid white;
 		border-radius: 25px;
 		height: 185px;
-		width: 620px;
+		width: 95%;
 		box-shadow: 3px 3px 15px grey;
 		margin-top: 28px;
+		margin-left: 25px;
+
 	}
 
 	.article1
@@ -89,9 +96,10 @@
 		border: 3px solid white;
 		border-radius: 25px;
 		height: 185px;
-		width: 620px;
+		width: 95%;
 		box-shadow: 3px 3px 15px grey;
-		margin-top: 50px;
+		margin-top: 40px;
+		margin-left: 25px;
 	}
 
 	.Textepic
@@ -241,10 +249,8 @@
 	{
 		background-color: white;
 	}
+	.activites
+	{
+		height: 1330px;
+	}
 
-
-
-
-
-
-}

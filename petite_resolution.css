@@ -93,6 +93,7 @@
 		width: 98%;
 		max-width: 440px;
 		height: auto;
+		background-image: no-repeat;
 	}
 
 	.secact
@@ -119,6 +120,7 @@
 		max-width: 440px;
 		height: 100px;
 		margin-top: 141px;
+		background-image: no-repeat;
 	}
 
 	#footer
@@ -127,13 +129,7 @@
 		flex-direction: column;
 	}
 
-	.alldownpic
-	{
-		width: 100%;
-		height: 80%;
-		max-width: 440px;
-		max-height: 185px;
-	}
+	
 
 		.inside2
 	{
@@ -388,4 +384,30 @@
 	{
 		justify-content: center;
 		margin: 0px;
+	}
+
+	.fondecran
+	{
+		background-size: cover;
+		width: 100%;
+		height: 185px;
+		background-repeat: no-repeat;
+	}
+
+	.fondecran2
+	{
+		background-size: cover no-repeat;
+		width: 100%;
+		height: 185px;
+		background-image: no-repeat;
+	}
+
+	.alldownpic
+	{
+		display: none;
+	}
+
+	.description
+	{
+		background-color: white;
 	}
