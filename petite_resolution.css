@@ -406,16 +406,19 @@
 		border-top: 0px solid black;
 		padding-left:75px;
 		padding-right:95px;
-		
 	}
 
 	.active1:hover
 	{
-		border-bottom: 4px solid #0065FC; 
+		border-bottom: 4px solid #F2F2F2; 
 		border-top: 0px solid black;
 		padding-left:90px;
 		padding-right:85px;
-		
+	}
+
+	.active1:active
+	{
+		border-bottom: 4px solid #0065FC;
 	}
 
 	#navigation
