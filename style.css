@@ -47,8 +47,9 @@
 	text-decoration: none;
 	color: black;
 	font-size: 1.2em;	
-	border-top: 3px solid #0065FC;
 	padding-top: 51px;
+	padding-right: 10px;
+	padding-left: 10px;
 	position: static;
 }
 
@@ -63,6 +64,8 @@
 	color: black;
 	font-size: 1.2em;	
 	padding-top: 51px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .nav3:hover
@@ -80,6 +83,11 @@
 	text-decoration: none;
 	color: black;
 }
+
+.ulli:hover
+	{
+		color: #0065FC;
+	}
 
 .asidetop
 {
@@ -128,7 +136,7 @@ button
 
 button:hover
 {
-	background-color: #DEEBFF;
+	background-color: #4791ff;
 	color: white;
 }
 
@@ -603,7 +611,37 @@ ul li
 {
 	text-decoration: none;
 	list-style: none;
+	
 }
+
+ul li a.active
+{
+	border-top: 4px solid #0065FC; 
+	padding-left:10px;
+	padding-right:10px;
+}
+
+ul li a.active1
+{
+	border-top: 4px solid #F2F2F2; 
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.active:active
+{
+	border-top: 4px solid #0065FC; 
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.active1:hover
+{
+	border-top: 4px solid #0065FC; 
+	padding-left:10px;
+	padding-right:10px;
+}
+
 
 .ulli
 {
@@ -614,11 +652,6 @@ ul li
 {
 	padding-bottom: 25px;
 	padding-top: 40px;
-}
-
-.apropos2
-{
-	width
 }
 
 .fa-info-circle
