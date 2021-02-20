@@ -642,6 +642,13 @@ ul li a.active1
 	padding-right:10px;
 }
 
+.active1:active
+{
+	border-top: 4px solid #0065FC; 
+	padding-left:10px;
+	padding-right:10px;
+}
+
 
 .ulli
 {
