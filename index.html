@@ -2,10 +2,11 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title></title>
+		<title>Reservia</title>
 		<link rel="stylesheet" href=" style.css" />
 		<link rel="stylesheet" media="screen and (max-width: 800px)" href="petite_resolution.css" />
-		<link rel="stylesheet" media="all and (min-width: 810px) and (max-width: 1280px)" href="tablet.css" />
+		<link rel="stylesheet" media="all and (min-width: 810px) and (max-width: 1810px)" href="tablet.css" />
+		<link rel="stylesheet" media="all and (min-width: 640px) and (max-width: 800px)" href="touch.css" />
 		<link rel="stylesheet" media="screen and (min-width: 1624px)" href="computer.css" />
 		<script src="https://kit.fontawesome.com/e30966b87e.js" crossorigin="anonymous"></script>
 	</head>
@@ -13,7 +14,7 @@
 		<header>
 			<div id="header">
 				<div class="logo">
-				<img src="images/logo/Reservia3x.png" class="logofirst" />
+				<img src="images/logo/Reservia3x.png" class="logofirst" alt="logo reservia"/>
 				<nav>
 					<ul id="navigation">
 						<li><a class="active nav2" href="index.html">Hébergements</a></li>
@@ -34,15 +35,14 @@
 				<form method="post" action="traitement.php">
 					<div id="recherchebar">
 						<div class="search ">
-							<p>
+							<p></p>
 								<span class="logosearch">
 									<i class="fas fa-map-marker-alt"></i></span>
 								<div class="bar2recherche">
 									<input type="search" name="recherche" id="recherche"  value="Marseille, France" />
 								</div>
 								<span class="search1">
-								<button>Rechercher</strong></button>
-							</p>
+								<button>Rechercher</button></span>	
 						</div>
 					</div>
 				</form>
@@ -108,7 +108,6 @@
 					<div class="block2">
 						<a href="#" class="hyperlien">
 						<img class="image" src="images/hebergements/4_small/port1.jpg" alt="pic2_350" />
-					
 						<div class="Textepic3">
 							<div class="hdp">
 								<h3>Hotel du port</h3>
@@ -125,7 +124,6 @@
 					<div class="block3">
 						<a href="#" class="hyperlien">
 							<img class="image" src="images/hebergements/4_small/hotel1.jpg" alt="pic3_350" />
-						
 						<div class="Textepic2">
 							<div class="mouette">
 								<h3>Hotel Les Mouettes</h3>
@@ -198,7 +196,8 @@
 					<div class="article">
 						<div class="TitrePop">
 							<div class=" popul">
-								<h2>Les plus populaires</h2>
+								<a href="#" class="lespluspop">
+								<h2>Les plus populaires</h2></a>
 							</div>
 							<a href="#" class="hyperlien">
 							<h3><i class="fas fa-chart-line"></i></h3></a>
@@ -218,7 +217,7 @@
 										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 									</div>
 								</div>
-							</p></a>
+							</a>
 						</div>
 						<div class="article2">
 							<a href="#" class="hyperlien">
@@ -233,7 +232,7 @@
 										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i>
 									</div>
 								</div>
-							</p></a>
+							</a>
 						</div>
 						<div class="article3">
 							<a href="#" class="hyperlien">
@@ -248,7 +247,7 @@
 										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i>
 									</div>
 								</div>
-							</p></a>	
+							</a>	
 						</div>
 					</div>
 				</div>
@@ -326,9 +325,9 @@
 						<h2>A propos</h2>
 					</div>
 					<ul class="lap">
-						<li><a href="#" class="ulli">Fonctionnement du site</a></li><br />
-						<li><a href="#" class="ulli">Conditions générales de vente</a></li><br />
-						<li><a href="#" class="ulli">Données et confidentialité</a></li><br />
+						<li><a href="#" class="ulli">Fonctionnement du site</a></li><br>
+						<li><a href="#" class="ulli">Conditions générales de vente</a></li><br>
+						<li><a href="#" class="ulli">Données et confidentialité</a></li><br>
 					</ul>
 				</div>
 				<div class="apropos2">
@@ -336,8 +335,8 @@
 						<h2>Nos hébergements</h2>
 					</div>
 					<ul class="lap">
-						<li><a href="#" class="ulli">Charte qualité</a></li><br />
-						<li><a href="#" class="ulli">Soumettre votre hotel</a></li><br />
+						<li><a href="#" class="ulli">Charte qualité</a></li><br>
+						<li><a href="#" class="ulli">Soumettre votre hotel</a></li><br>
 					</ul>
 				</div>
 				<div class="apropos3" >
@@ -345,8 +344,8 @@
 						<h2>Assistance</h2>
 					</div>
 					<ul class="lap">
-						<li><a href="#" class="ulli">Centre d'aide</a></li><br />
-						<li><a href="#" class="ulli">Nous contacter</a></li><br />
+						<li><a href="#" class="ulli">Centre d'aide</a></li><br>
+						<li><a href="#" class="ulli">Nous contacter</a></li><br>
 					</ul>
 				</div>
 			</div>

@@ -1,4 +1,4 @@
-@media all and (min-width: 810px) and (max-width: 1280px)
+@media all and (min-width: 810px) and (max-width: 1810px)
 {
 	#conteneur
 	{
@@ -16,6 +16,7 @@
 		margin-top: 25px;
 	}
 
+
 	.filtres
 	{
 		display: flex;
@@ -32,7 +33,6 @@
 	.search
 	{
 		border: 2px solid #F2F2F2;
-		width: 500px;
 		padding-left: 0px;
 		padding-right: 0px;
 		border-radius: 15px;
