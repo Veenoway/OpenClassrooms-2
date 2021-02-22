@@ -653,6 +653,25 @@ ul li a.active1
 .ulli
 {
 	text-decoration: none;
+	justify-content: space-around;
+}
+
+.lap
+{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	height:100px;
+
+}
+
+.lap1
+{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	height:70px;
+
 }
 
 .titlefoot
