@@ -21,6 +21,58 @@
 		padding-bottom: 50px;
 	}
 
+	.logosearch
+{
+	background-color: #F2F2F2;
+	padding-left: 0px;
+	font-size: 1.4em;
+	display: flex;
+	border: 0px solid white;
+	border-radius: 12px 0px 0px 12px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;	
+	margin-right:45px;
+}
+
+	.btn 
+	{
+		background-color: #0065FC;
+		padding: 12px 21px 12px 21px;
+		border: 0px solid black;
+		border-radius: 0px 15px 15px 0px;
+		margin: 0px;
+		font-weight: bold;
+		font-size: 1em;
+		color: white;
+		display:none;
+	}
+
+	.btn:hover
+	{
+		background-color: #4791ff;
+		color: white;
+	}
+
+	.button
+	{
+		background-color: #0065FC;
+		padding: 12px 21px 12px 21px;
+		border: 0px solid black;
+		border-radius: 0px 15px 15px 0px;
+		margin: 0px;
+		font-weight: bold;
+		font-size: 1em;
+		color: white;
+		display:flex;
+	}
+
+	.button:hover
+	{
+		background-color: #4791ff;
+		color: white;
+	}
 	.article1
 	{
 		width: 92%;
