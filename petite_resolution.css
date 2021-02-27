@@ -19,6 +19,8 @@
 		margin-top: 25px;
 		border-radius: 0px;
 		padding-bottom: 50px;
+		padding-right: 5px;
+		padding-left: 5px;
 	}
 
 	.logosearch
@@ -142,43 +144,43 @@
 	.firstact
 	{
 		margin-bottom: 30px;
-		width: 98%;
-		max-width: 440px;
+
+		width: 94%;
+		max-width: 800px;
 		height: auto;
-		background-image: no-repeat;
+		
 	}
 
 	.secact
 	{
 		margin-bottom: 30px;
-		width: 98%;
-		max-width: 440px;
+		width: 94%;
+		max-width: 800px;
 		height: auto;
 	}
 
 	.fourthact
 	{
 		margin-bottom: 30px;
-		width: 98%;
-		max-width: 440px;
+		width: 94%;
+		max-width: 800px;
 		height: 100px;
-		max-height
 	}
 
 	.fifthact
 	{
 		margin-bottom: 30px;
-		width: 98%;
-		max-width: 440px;
+		width: 94%;
+		max-width: 800px;
 		height: 100px;
 		margin-top: 141px;
-		background-image: no-repeat;
 	}
 
 	#footer
 	{
 		display: flex;
 		flex-direction: column;
+		width: 115%;
 	}
 
 	
@@ -415,11 +417,8 @@
 	.nav2
 	{
 		border-top: none;
-		
 		padding-bottom: 20px;
-		
 		margin: 0px;
-		
 		text-align: center;
 		position: absolute;
 		left:0px;
@@ -442,8 +441,8 @@
 	{
 		border-bottom: 4px solid #0065FC; 
 		border-top: 0px solid black;
-		padding-left:75px;
-		padding-right:95px;
+		padding-left:65px;
+		padding-right:65px;
 		margin-left: 0px;
 		
 	}
@@ -452,9 +451,9 @@
 	{
 		border-bottom: 4px solid #F2F2F2; 
 		border-top: 0px solid black;
-		padding-left:90px;
-		padding-right:85px;
-		margin-left: 0px;
+		padding-left:85px;
+		padding-right:80px;
+		margin-left: 5px;
 		
 	}
 
@@ -500,7 +499,6 @@
 		background-size: cover no-repeat;
 		width: 100%;
 		height: 185px;
-		background-image: no-repeat;
 	}
 
 	.alldownpic
@@ -511,4 +509,11 @@
 	.description
 	{
 		background-color: white;
+	}
+
+	#blockparent
+	{
+		background-color: white;
+		width: 470px;
+		margin-left: 9px;
 	}
