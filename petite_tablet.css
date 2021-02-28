@@ -1,0 +1,302 @@
+@media all and (min-width: 768px) and (max-width: 1024px)
+{
+	#conteneur
+	{
+		background-color: #F2F2F2;
+		border: 0px solid black;
+		border-radius: 35px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		align-items: center;
+		flex-basis: 100%;
+		max-width: 1024px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 25px;
+	}
+
+
+	.filtres
+	{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-left: 25px;
+		width: 90%;
+		margin-top:15px;
+		margin-bottom:15px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.search
+	{
+		border: 2px solid #F2F2F2;
+		padding-left: 0px;
+		padding-right: 0px;
+		border-radius: 15px;
+		margin-left: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#sarticle
+	{
+		display: flex;
+		flex-flow: column wrap;
+		flex-basis: 120%;
+
+		margin-bottom:0px;
+	}
+
+	.popul
+	{
+		width: 100%;
+		margin-bottom: 0px;
+		font-size: 1.2em;
+	}
+
+	.article3
+	{
+		background-color: white;
+		border: 3px solid white;
+		border-radius: 25px;
+		height: 185px;
+		width: 95%;
+		box-shadow: 3px 3px 15px grey;
+		margin-bottom: 40px;
+		margin-top: 30px;
+		margin-left: 25px;
+	}
+
+	.upic
+	{
+		width: 100%;
+	}
+
+	.article2
+	{
+		background-color: white;
+		border: 3px solid white;
+		border-radius: 25px;
+		height: 185px;
+		width: 95%;
+		box-shadow: 3px 3px 15px grey;
+		margin-top: 28px;
+		margin-left: 25px;
+
+	}
+
+	.article1
+	{
+		background-color: white;
+		border: 3px solid white;
+		border-radius: 25px;
+		height: 185px;
+		width: 95%;
+		box-shadow: 3px 3px 15px grey;
+		margin-top: 40px;
+		margin-left: 25px;
+	}
+
+	.Textepic
+	{
+		position: absolute;
+		bottom: 26px;
+		border: 0px solid yellow;
+		left: 23px;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 12px;
+		padding-left: 18px;
+		padding-right: 200px;
+		padding-top: 12px;
+	}
+
+	.Textepic5
+	{
+		position: absolute;
+		bottom: 26px;
+		border: 0px solid black;
+		left: 23px;
+		background-color: white;
+		border-radius: 2px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 12px;
+		padding-left: 18px;
+		padding-right: 282px;
+		padding-top: 12px;
+	}
+
+	.image
+	{
+		border: 3px solid white;
+		border-radius: 35px;
+		margin: 20px;
+		width: 450px;
+		height: 300px;
+		min-width: 250px;
+		box-shadow: 3px 3px 15px #bfbfbf;
+	}
+
+	.Textepic2
+	{
+		position: absolute;
+		bottom: 26px;
+		border: 0px solid black;
+		left: 23px;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 12px;
+		padding-left: 18px;
+		padding-right: 242px;
+		padding-top: 12px;
+	}
+
+	.Textepic3
+	{
+		position: absolute;
+		bottom: 26px;
+		border: 0px solid black;
+		left: 23px;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 12px;
+		padding-left: 18px;
+		padding-right: 298px;
+		padding-top: 12px;
+	}
+
+	.Textepic4
+	{
+		position: absolute;
+		bottom: 26px;
+		border: 0px solid black;
+		left: 23px;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 12px;
+		padding-left: 18px;
+		padding-right: 285px;
+		padding-top: 12px;
+	}
+
+	.Textepic5
+	{
+		position: absolute;
+		bottom: 26px;
+		border: 0px solid black;
+		left: 23px;
+		background-color: white;
+		border-radius: 2px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 12px;
+		padding-left: 18px;
+		padding-right: 284px;
+		padding-top: 12px;	
+	}
+
+	.Textepic6
+	{
+		position: absolute;
+		bottom: 26px;
+		border: 0px solid black;
+		left: 23px;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 12px;
+		padding-left: 18px;
+		padding-right: 260px;
+		padding-top: 12px;
+	}
+
+	.firstact
+	{
+		margin-bottom: 40px;
+
+	}
+
+	.fifthact
+	{
+		margin-bottom: 00px;
+	}
+
+	.fourthact
+	{
+		margin-bottom: 00px;
+	}
+
+	#footer
+	{
+		margin-top: 0px;
+	}
+
+	#blockparent
+	{
+		background-color: white;
+		justify-content: space-around;
+	}
+	.activites
+	{
+		height: 1330px;
+	}
+
+	.alldownpic
+	{
+		width: 350px;
+	}
+
+
+	.inside2
+	{
+		border: 0px solid black;
+		border-radius: 25px;
+		background-color: white;
+		height: 295px;
+		box-shadow: 3px 3px 15px grey;
+	}
+
+	.inside3
+	{
+		border: 0px solid black;
+		border-radius: 25px;
+		background-color: white;
+		height: 230px;
+		margin-top: 65px;
+		box-shadow: 3px 3px 15px grey;
+	}
+
+	.inside4
+	{
+		border: 0px solid black;
+		border-radius: 25px;
+		background-color: white;
+		height: 235px;
+		box-shadow: 3px 3px 15px grey;
+		margin-top: 20px;
+	}
+
+	.inside5
+	{
+		border: 0px solid black;
+		border-radius: 25px;
+		background-color: white;
+		height: 270px;
+		margin-top: 60px;
+		box-shadow: 3px 3px 15px grey;
+	}
